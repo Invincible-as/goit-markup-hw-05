@@ -259,7 +259,7 @@ font-weight: 500;
     column-gap: 10px;
 }
 
-.mail-list-item-link,
+.mail-list-item-link
 
  {
     fill: var(--titel-text-color);
@@ -489,7 +489,7 @@ font-weight: 700;
 
 }
 
-<<<<<<< HEAD
+
 .section-do-thumb {
     
 position: relative;
@@ -513,43 +513,7 @@ position: relative;
 text-align: center;
 font-size: 14px;
     line-height: 1.2;
-
-
-=======
-
-
-.section-do-thumb {
-position: relative;
-
-    
-}
-
   
-  
-
-
-.section-do-label {
-
-    position: absolute;
-      display: i;
-        width: 370px;
-        height: 70px;
-        bottom: 0;
-        margin: 0px;
-        padding: 27px 107px;
-        background-color: rgba(47, 48, 58, 0.8);
-        color: var(--stock-color);
-    
-        text-transform: uppercase;
-        font-weight: 700;
-        text-align: center;
-        font-size: 14px;
-        line-height: 1.2;
-   
-   
-
->>>>>>> 3b7a9e3853bd1757aeef0e085708f65eaf1f2029
-     
      
     /* transform: translate(50%, -50%); */
   
@@ -999,7 +963,7 @@ border-top: 0;
     position: relative;
     overflow: hidden;
 
-<<<<<<< HEAD
+
 }
 
 
@@ -1081,56 +1045,3 @@ border-top: 0;
   border: 1px solid #303030;
   padding: 0;
 }
-=======
-.our-projects-thumb {
-    position: relative;
-
-}
-
-.our-projects-thumb::before {
-    display: inline-block;
-    position: absolute;
-    content: '';
-    background-color: rgba(33, 150, 243, 0.9);
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
- 
-
-
-}
-
-.our-projects-thumb:hover::before
- {
-    opacity: 1;
-    transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.our-projects-label {
-
-    position: absolute;
-    width: 322px;
-    height: 168px;
-    top: 50%;
-    left: 50%;
-    margin: 0px;
-    padding: 63px 24px;
-    color: var(--stock-color);
-    transform: translate(-50%, -100%);
-    opacity: 0;
-
-    font-weight: 400;
-    text-align: left;
-    font-size: 18px;
-    line-height: 1.55;
-
-
-}
-
-.our-projects-label:hover,
-.our-projects-label:focus {
-    opacity: 1;
-    transition: 250ms opacity cubic-bezier(0.4, 0, 0.2, 1); }
->>>>>>> 3b7a9e3853bd1757aeef0e085708f65eaf1f2029
